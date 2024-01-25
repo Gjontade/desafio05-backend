@@ -61,19 +61,20 @@ class productManager {
 	};
 
 	getProducts = async () => {
-		try {
-			let colecciones = await fs.readFile(this.path, "utf-8");
-			return JSON.parse(colecciones);
-		} catch (error) {
-			if (error.code === "ENOENT") {
-				// Si el archivo no existe, retornar un array vacío
-				return [];
-			} else {
-				// Si ocurre un error diferente, lanzar el error
-				throw error;
-			}
-		}
-	};
+    try {
+        let colecciones = await fs.readFile(this.path, "utf-8");
+        return JSON.parse(colecciones);
+        
+    } catch (error) {
+        if (error.code === 'ENOENT') {
+            // Si el archivo no existe, retornar un array vacío
+            return [];
+        } else {
+            // Si ocurre un error diferente, lanzar el error
+            throw error;
+        }
+    }
+};
 
 	getProductById = async (id) => {
 		let colecciones = await this.getProducts();
