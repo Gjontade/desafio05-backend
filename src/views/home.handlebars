@@ -1,0 +1,16 @@
+<div class="d-flex flex-wrap">
+	<h1 class="">Lista de Productos</h1>
+	{{#each products}}
+		<div class="text-center card" style="width: 16rem;">
+			<div class="card-header">Categoría: {{this.category}}</div>
+			<div class="card-body">
+				<div class="card-title h5">{{this.title}}</div>
+				<div class="mb-2 text-muted card-subtitle h6">Precio: ${{this.price}}</div>
+				<p class="card-text">{{this.description}}</p>
+			</div>
+			<div class="text-muted card-footer">Stock disponible:
+				{{this.stock}}
+				unidades</div>
+		</div>
+	{{/each}}
+</div>

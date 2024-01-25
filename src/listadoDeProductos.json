@@ -1,0 +1,123 @@
+[
+	{
+		"title": "Monitor",
+		"description": "descripcion 1",
+		"price": 10000,
+		"thumbnail": "img 1",
+		"code": "AA01",
+		"stock": 10,
+		"status": true,
+		"category": "A",
+		"id": 1
+	},
+	{
+		"title": "Mouse",
+		"description": "descripcion 3",
+		"price": 2500,
+		"thumbnail": "img 3",
+		"code": "AA03",
+		"stock": 2,
+		"status": true,
+		"category": "A",
+		"id": 2
+	},
+	{
+		"title": "Auriculares Inalambricos",
+		"description": "descripcion 4",
+		"price": 1500,
+		"thumbnail": "img 4",
+		"code": "AA04",
+		"stock": 7,
+		"status": true,
+		"category": "A",
+		"id": 3
+	},
+	{
+		"title": "Teclado",
+		"description": "descripcion 6",
+		"price": 1000,
+		"thumbnail": "img 6",
+		"code": "AA06",
+		"stock": 4,
+		"status": true,
+		"category": "A",
+		"id": 4
+	},
+	{
+		"title": "Celular",
+		"description": "descripcion 7",
+		"price": 14000,
+		"thumbnail": "img 7",
+		"code": "AA07",
+		"stock": 10,
+		"status": true,
+		"category": "A",
+		"id": 5
+	},
+	{
+		"title": "Microfono",
+		"description": "descripcion 8",
+		"price": 7000,
+		"thumbnail": "img 8",
+		"code": "AA08",
+		"stock": 1,
+		"status": true,
+		"category": "B",
+		"id": 6
+	},
+	{
+		"title": "Mando",
+		"description": "descripcion 9",
+		"price": 5500,
+		"thumbnail": "img 9",
+		"code": "AA09",
+		"stock": 3,
+		"status": true,
+		"category": "B",
+		"id": 7
+	},
+	{
+		"title": "Gabinete",
+		"description": "descripcion 10",
+		"price": 20000,
+		"thumbnail": "img 10",
+		"code": "AA10",
+		"stock": 2,
+		"status": true,
+		"category": "B",
+		"id": 8
+	},
+	{
+		"title": "Silla Gammer",
+		"description": "descripcion 11",
+		"price": 12000,
+		"thumbnail": "img 11",
+		"code": "AA11",
+		"stock": 3,
+		"status": true,
+		"category": "B",
+		"id": 9
+	},
+	{
+		"title": "Pad",
+		"description": "descripcion 12",
+		"price": 500,
+		"thumbnail": "img 12",
+		"code": "AA12",
+		"stock": 25,
+		"status": true,
+		"category": "B",
+		"id": 10
+	},
+	{
+		"title": "termo",
+		"description": "stanley",
+		"price": 500,
+		"thumbnail": "img termo",
+		"code": "AA13",
+		"stock": 25,
+		"status": true,
+		"category": "B",
+		"id": 11
+	}
+]

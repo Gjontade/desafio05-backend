@@ -1,0 +1,44 @@
+<div class="d-flex flex-wrap" id="productList">
+	{{#each products}}
+		<div class="card" style="width: 18rem;">
+			<div class="card-body">
+				<h5 class="card-title">{{this.title}}</h5>
+				<p class="card-text">{{this.description}}</p>
+				<p class="card-text">$ {{this.price}}</p>
+			</div>
+		</div>
+
+	{{/each}}
+
+</div>
+
+<h1> Producto Nuevo </h1>
+<form method="post" action="/realTimeProducts" id="productForm">
+	<div>
+		<label for="title">Título</label>
+		<input type="text" name="title" id="title" />
+	</div>
+	<div>
+		<label for="title">Descripción</label>
+		<input type="text" name="description" id="description" />
+	</div>
+	<div>
+		<label for="price">Precio</label>
+		<input type="number" name="price" id="price" />
+	</div>
+	<div>
+		<label for="code">Código</label>
+		<input type="text" name="code" id="code" />
+	</div>
+	<div>
+		<label for="stock">Stock</label>
+		<input type="text" name="stock" id="stock" />
+	</div>
+	<div>
+		<label for="category">Categoría</label>
+		<input type="text" id="category" name="category" />
+	</div>
+	<button type="submit">Agregar</button>
+</form>
+
+<script src="/js/index.js"></script>
